@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LTToolKit_Example' do
+  pod 'LTToolKit', :path => '../'
+
+  target 'LTToolKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
