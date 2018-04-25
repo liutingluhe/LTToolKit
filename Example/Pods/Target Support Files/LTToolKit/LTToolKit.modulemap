@@ -1,0 +1,6 @@
+framework module LTToolKit {
+  umbrella header "LTToolKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

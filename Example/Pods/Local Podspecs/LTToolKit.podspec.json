@@ -1,0 +1,22 @@
+{
+  "name": "LTToolKit",
+  "version": "0.1.0",
+  "summary": "A short description of LTToolKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liutingluhe/LTToolKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liutingluhe": "liutingluhe@163.com"
+  },
+  "source": {
+    "git": "https://github.com/liutingluhe/LTToolKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LTToolKit/Classes/**/*"
+}

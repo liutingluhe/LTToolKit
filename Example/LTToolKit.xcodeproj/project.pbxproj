@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32D988212090B517008ABC07 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D9881D2090B517008ABC07 /* TestView.swift */; };
+		32D988222090B517008ABC07 /* ViewStyleTestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D9881E2090B517008ABC07 /* ViewStyleTestController.swift */; };
+		32D988232090B517008ABC07 /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D9881F2090B517008ABC07 /* TestModel.swift */; };
+		32D988242090B517008ABC07 /* TestViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D988202090B517008ABC07 /* TestViewStyle.swift */; };
 		3A878D7F442624421790119F /* Pods_LTToolKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4772EED0E750BC2E78537CE9 /* Pods_LTToolKit_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
@@ -29,20 +32,23 @@
 
 /* Begin PBXFileReference section */
 		058563896C2D8E21CAD2850D /* Pods-LTToolKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTToolKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LTToolKit_Tests/Pods-LTToolKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		23337E972F82F01D54E42E56 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		23337E972F82F01D54E42E56 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		32D9881D2090B517008ABC07 /* TestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		32D9881E2090B517008ABC07 /* ViewStyleTestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewStyleTestController.swift; sourceTree = "<group>"; };
+		32D9881F2090B517008ABC07 /* TestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
+		32D988202090B517008ABC07 /* TestViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewStyle.swift; sourceTree = "<group>"; };
 		4772EED0E750BC2E78537CE9 /* Pods_LTToolKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTToolKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* LTToolKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTToolKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* LTToolKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTToolKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		629655AAA1D0B01A3E4EE191 /* LTToolKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LTToolKit.podspec; path = ../LTToolKit.podspec; sourceTree = "<group>"; };
-		9A7EE278F2470AA4C019016D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		629655AAA1D0B01A3E4EE191 /* LTToolKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LTToolKit.podspec; path = ../LTToolKit.podspec; sourceTree = "<group>"; };
+		9A7EE278F2470AA4C019016D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B1F89752DC1B2AFD7EE9894A /* Pods_LTToolKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTToolKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49E0970E13958DABE05FFE2 /* Pods-LTToolKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTToolKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LTToolKit_Tests/Pods-LTToolKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E9CC0A201260896DA98731AB /* Pods-LTToolKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTToolKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LTToolKit_Example/Pods-LTToolKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -93,8 +99,11 @@
 		607FACD21AFB9204008FA782 /* Example for LTToolKit */ = {
 			isa = PBXGroup;
 			children = (
+				32D9881F2090B517008ABC07 /* TestModel.swift */,
+				32D9881D2090B517008ABC07 /* TestView.swift */,
+				32D988202090B517008ABC07 /* TestViewStyle.swift */,
+				32D9881E2090B517008ABC07 /* ViewStyleTestController.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -353,10 +362,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-LTToolKit_Example/Pods-LTToolKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LTToolKit/LTToolKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LTToolKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -370,8 +381,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				32D988212090B517008ABC07 /* TestView.swift in Sources */,
+				32D988222090B517008ABC07 /* ViewStyleTestController.swift in Sources */,
+				32D988242090B517008ABC07 /* TestViewStyle.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				32D988232090B517008ABC07 /* TestModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,7 +537,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -538,7 +552,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

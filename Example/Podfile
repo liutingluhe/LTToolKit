@@ -1,6 +1,7 @@
 use_frameworks!
 
 target 'LTToolKit_Example' do
+  pod 'SnapKit', '3.1.2'
   pod 'LTToolKit', :path => '../'
 
   target 'LTToolKit_Tests' do

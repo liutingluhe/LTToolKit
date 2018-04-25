@@ -1,0 +1,19 @@
+PODS:
+  - LTToolKit (0.1.0)
+  - SnapKit (3.1.2)
+
+DEPENDENCIES:
+  - LTToolKit (from `../`)
+  - SnapKit (= 3.1.2)
+
+EXTERNAL SOURCES:
+  LTToolKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LTToolKit: 3993e91a58343f2c28850c02fba60d9ff55b915d
+  SnapKit: 12b24f569cb7c143acc9c22b9d91b23e7b1c84a2
+
+PODFILE CHECKSUM: 7b0bec61605f92bb3352d9458167f14317f0a6df
+
+COCOAPODS: 1.4.0
